@@ -1,8 +1,6 @@
 # Apache-Drill-On-GCP-Dataproc
 ![apache drill](apache-drill-logo/512px-Apache_Drill_logo.svg.png)
 
-
-
 *This repository describes to provision apache drill with zookeeper in GCP dataproc with automation*
 
 **Prerequisites:**
