@@ -1,5 +1,5 @@
 # Apache-Drill-On-GCP-Dataproc
-![apache drill](apache-drill-logo/512px-Apache_Drill_logo.svg.png)
+#![apache drill](apache-drill-logo/512px-Apache_Drill_logo.svg.png)
 
 
 https://img.shields.io/github/last-commit/mohamedkashifuddin/apache-drill-on-gcp-dataproc/main
