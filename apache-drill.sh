@@ -9,7 +9,7 @@ readonly DRILL_HOME=/opt/drill
 readonly DRILL_LOG_DIR=${DRILL_HOME}/log
 readonly DRILL_VERSION='1.19.0'
 readonly bucket=bucket-to-store-plugin-details
-readonly bucket_accuknox=gs://bucket-to-access-data
+readonly bucket_=gs://bucket-to-access-data
  
 function err() {
   echo "[$(date +'%Y-%m-%dT%H:%M:%S%z')]: $@" >&2
@@ -31,7 +31,7 @@ function create_gcs_storage_plugin() {
   cat >/tmp/gcs_plugin.json <<EOF 
 {
     "config": {
-        "connection": "${bucket_accuknox}",
+        "connection": "${bucket_}",
         "enabled": true,
         "formats": {
             "avro": {
